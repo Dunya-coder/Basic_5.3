@@ -10,14 +10,14 @@ namespace Basic
     {
         static void Main(string[] args)
         {
-          
+            Console.WriteLine("1:");
             Book k = new Book();
             k.Author = "Stive Jobs";
             k.BookName = "life experience ";
             k.Price = 79;
-            Console.WriteLine("\n");
+          
             k.print();
-            Console.WriteLine("2 :\n");
+            Console.WriteLine("2 :");
             k.Author = "Jul Vern";
             k.BookName = "20,000 Leagues Under the Sea";
             k.Price = 9;
